@@ -40,9 +40,12 @@ nav a{
   font-weight: 500;
   transition: 0.3s;
 }
+.catalogo{
+  background-color: #111;
+}
 
 nav a:hover{
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 /* HERO */
@@ -96,6 +99,14 @@ nav a:hover{
 
 /* PROMOÇÕES */
 
+.titulo{
+background-color: red;
+width: 450;
+height: 50;
+border: none;
+border-radius: 10px;
+text-align: center;
+}
 .promocoes{
   padding: 80px 8%;
 }
@@ -170,8 +181,11 @@ nav a:hover{
 }
 
 .sobre-text{
-  max-width: 700px;
+  max-width: 7000px;
+color: black;
+border-radius: 10px;
 }
+
 
 .sobre h2{
   font-size: 38px;
@@ -179,8 +193,8 @@ nav a:hover{
 }
 
 .sobre p{
-  margin-bottom: 15px;
-  line-height: 1.8;
+  margin-bottom: 10px;
+  line-height: 2.0;
 }
 
 /* CONTATO */
